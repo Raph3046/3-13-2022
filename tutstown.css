@@ -1,0 +1,35 @@
+body {
+  background-color: #FAF8DA;
+  font-family: 'Open Sans';
+}
+.main-heading {
+  font-size: 70px;
+  color: #205D76;
+}
+
+.town-preview {
+  width: 650px;
+}
+.building {
+  width: 200px;
+}
+.category-heading {
+  color: #205D76;
+  font-size: 30px;
+}
+.store-list {
+  color: #FFC122; /* Changes list’s bullet point color */
+}
+
+.store-link {
+  color: #EA6E2F;
+  font-size: 20px;
+}
+.primary-footer {
+  background-color: #FFC122;
+}
+
+.created-by {
+  color: #FFFFFF;
+  font-size: 20px;
+}
