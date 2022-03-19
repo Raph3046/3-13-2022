@@ -1,6 +1,10 @@
 body {
   background-color: #FAF8DA;
   font-family: 'Open Sans';
+  margin: 0;
+}
+.primary-header {
+  text-align: center;
 }
 .main-heading {
   font-size: 70px;
@@ -18,6 +22,7 @@ body {
   font-size: 30px;
 }
 .store-list {
+  padding-left: 15px; /* newly added styling */
   color: #FFC122; /* Changes list’s bullet point color */
 }
 
@@ -26,10 +31,29 @@ body {
   font-size: 20px;
 }
 .primary-footer {
+  padding: 2px;
+  text-align: center;
   background-color: #FFC122;
+   
 }
 
 .created-by {
   color: #FFFFFF;
   font-size: 20px;
 }
+
+.store-section {
+  display: flex;
+  display: -webkit-flex; /* This is a vendor prefix! */
+  margin: 50px auto;
+  width: 450px;
+}
+
+.store-details {
+  margin-left: 30px;
+}
+
+.store-name {
+  margin-bottom: 10px;
+}
+
